@@ -1,0 +1,7 @@
+/*Para poder agregar lo comentarios en las hojas de estilo se utiliza de esta forma*/
+/*Selecetor universal aplica el estilo a todas las etiquetas que se eencuentran dentro del body*/
+*{
+    color: aquamarine;
+    font-style: italic;
+    background-color: black; 
+}
