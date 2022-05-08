@@ -1,0 +1,113 @@
+body{
+    background-color: darkgreen;
+}
+.contenedor{
+    margin: auto;
+    background-color:white;
+}
+/*agregamos una imagen al parrafo*/
+.parrafoimagen{
+    background-image: url("/IMG/foto1.jpg");
+}
+
+/* agregamos transparencia a un color de fondo*/
+.parrafotransparencia{
+    background-color: black;
+    opacity: 70%;
+    color: white;
+}
+
+/*agregamos una imagen de fondo que no se repita*/
+.parrafoimgrep{
+    background-image: url("/IMG/html.png");
+    background-repeat: repeat;
+}
+
+/*agregamos una imagen de fondo que no se repita*/
+.parrafoimgnorep{
+    background-image: url("/IMG/html.png");
+    background-repeat: no-repeat;
+}
+
+/* perzonalizamos el tamaño de la imagen */
+.parrafoimgsiz{
+    background-image: url("/IMG/html.png");
+    background-size: 30px;
+}
+
+/* iamgen de fondo con alineacion vertical */
+.parrafoimgver{
+    background-image: url("/IMG/html.png");
+    background-repeat: repeat-x;
+    background-size: 30px;
+}
+/* iamgen de fondo con alineacion vertical */
+.parrafoimghor{
+    background-image: url("/IMG/html.png");
+    background-repeat: repeat-y;
+    background-size: 30px;
+}
+
+/* imagen de fondo alineada al centro */
+.parrafoimgcen{
+    background-image: url("/IMG/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center ;
+}
+/* imagen de fondo alineada a la derecha*/
+.parrafoimgder{
+    background-image: url("/IMG/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: right ;
+}
+/* imagen de fondo alineada al la izquierda */
+.parrafoimgizq{
+    background-image: url("/IMG/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left ;
+}
+/* imagen de fondo alineada a la parte superior*/
+.parrafoimgsup{
+    background-image: url("/IMG/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: top;
+}
+/* imagen de fondo alineada a la parte inferior*/
+.parrafoimginf{
+    background-image: url("/IMG/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: bottom;
+}
+/* imagen de fondo alineada a la parte superior derecha*/
+.parrafoimgsupder{
+    background-image: url("/IMG/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: top right;
+}
+/* imagen de fondo alineada a la parte superior izquierda*/
+.parrafoimgsupizq{
+    background-image: url("/IMG/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: top left;
+}
+/* imagen de fondo alineada a la parte inferior derecha*/
+.parrafoimginfder{
+    background-image: url("/IMG/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: bottom right;
+}
+/* imagen de fondo alineada a la parte inferior izquierda*/
+.parrafoimgsinfizq{
+    background-image: url("/IMG/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: bottom left;
+}
