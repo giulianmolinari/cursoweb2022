@@ -1,0 +1,71 @@
+/* importar letras de google> cuando importas las letras de google siempre se pone al inicio del estilo */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+body{
+    background-color: bisque;
+}
+.contenedor{
+    background-color: white;
+    margin: auto;
+}
+
+/* llamamos a las letras descargadas de google  */
+.fuente{
+    font-family: 'Roboto Mono', monospace;
+}
+/* agregamos estilos al parrafo */
+.fuente3{
+    font-style: italic;
+}
+.fuente4{
+    font-style: oblique;
+}
+.fuente5{
+    font-style: normal;
+}
+.fuente6{
+    font-weight: bold;
+}.fuente7{
+    font-weight: bolder;
+}
+.fuente8{
+    font-style: small;
+}
+.fuente9{
+    font-variant: small-caps ;
+}
+.fuente10{
+    font-size: 25px ;
+}
+.fuente11{
+    font-variant: normal ;
+}
+/* utlizamos las fuentes descargadas */
+@font-face {
+    font-family: "ZenLoop-regular";
+    src: url("/FONTS/ZenLoop-Regular.ttf");
+} 
+@font-face {
+    font-family: "Lora-mediun";
+    src: url("/FONTS/Lora-Medium.ttf");
+}
+@font-face {
+    font-family: "Titan";
+    src: url("/FONTS/Beyond\ Mars.ttf");
+}
+@font-face {
+    font-family: "HighValley";
+    src: url("/FONTS/Highvalley.ttf");
+}
+/* Utilizamos las fuentes de internet */
+.fuente12{
+    font-family:"Zenloop-regular";
+}
+.fuente13{
+    font-family:"Lora-mediun";
+}
+.fuente14{
+    font-family:"Titan";
+}
+.fuente15{
+    font-family:"HighVaklley";
+}

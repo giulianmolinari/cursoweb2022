@@ -1,0 +1,102 @@
+
+body{
+    background-color: coral;
+}
+.contenedor{
+    background-color: white;
+}
+/* agregamops color al texto del parrafo */
+.parrafocolor{
+    color: yellowgreen;
+    border: solid;
+    border-color: red;
+}
+/* alineamos el parrafo a la derecha */
+.parrafoderecha{
+    text-align: right;
+    border: solid;
+    border-color: red;
+}
+/* alineamos el parrafo a la izquierda */
+.parrafoizquierda{
+    text-align: left;
+    border: solid;
+    border-color: red;
+}
+/* alineamos el parrafo al centrov */
+.parrafocentro{
+    text-align: center;
+    border: solid;
+    border-color: red;
+}
+/* justificamos el parrafo */
+.parrafojustificado{
+    text-align: justify;
+    border: solid;
+    border-color: red;
+}
+/* alineamos el parrafo a la parte superior*/
+.parrafosuperior{
+    vertical-align: top;
+    border: solid;
+    border-color: red;
+}
+/* alineamos el parrafo a la parte inferior */
+.parrafoinferior{
+    vertical-align: bottom;
+    border: solid;
+    border-color: red;
+}
+/* alineamos el parrafo a la parte media*/
+.parrafomedio{
+    vertical-align: middle;
+    border: solid;
+    border-color: red;
+}
+/* agregamos decoraciones al texto*/
+.parrafosubrayado{
+    text-decoration: underline;
+    border: solid;
+    border-color: red;
+}
+.parrafosobrelinea{
+    text-decoration: overline;
+    border: solid;
+    border-color: red;
+}
+.parrafotachado{
+    text-decoration: line-through;
+    border: solid;
+    border-color: red;
+}
+.parrafomayuscula{
+    text-decoration: uppercase;
+    border: solid;
+    border-color: red;
+}
+.parrafominuscula{
+    text-decoration: lowercase;
+    border: solid;
+    border-color: red;
+}
+.parrafonombrepropio{
+    text-decoration: capitalize;
+    border: solid;
+    border-color: red;
+}
+/* Agregamos espacios para los textos de parrafo */
+.parrafosangria{
+    text-indent: 10px;
+    border: solid;
+    border-color: red;
+}
+.parrafoespacio{
+    letter-spacing: 10px ;
+    border: solid;
+    border-color: red;
+}
+.parrafocomprimido{
+    text-indent: -3px;
+    border: solid;
+    border-color: red;
+}

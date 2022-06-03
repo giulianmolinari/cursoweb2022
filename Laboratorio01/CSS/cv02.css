@@ -1,0 +1,42 @@
+body{ background: #FC466B; 
+}
+.titulo{
+    background: -webkit-linear-gradient(to right, #4568dc, #b06ab3);
+}
+.separacion{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.box{
+    background: white;
+    height: 100px;
+    width: 95%px;
+    margin: auto;
+    border: 5px solid black;
+}
+.datos1{
+    background-color: azure;
+    height: 900px;
+    width: 95%px;
+    margin: auto;
+    border: 5px solid cornflowerblue;
+}
+.datos2{
+    background-color: azure;
+    height: 600px;
+    width: 95%px;
+    margin: auto;
+    border: 5px solid cornflowerblue;}
+.datos3{
+    background-color: azure;
+    height: 500px;
+    width: 95%px;
+    margin: auto;
+    border: 5px solid cornflowerblue;}
+.datos4{
+    background-color: azure;
+    height: 500px;
+    width: 95%px;
+    margin: auto;
+    border: 5px solid cornflowerblue;
+}
