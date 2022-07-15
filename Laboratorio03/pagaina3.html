@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // declarando variables 
+        var sb=0, cat=0, bon=0, des=0, sf=0
+        // capturando valores
+        sb=parseFloat(prompt("Ingrese el sueldo basico: "));
+        cat=parseInt(prompt("Ingresa la categoria: "));
+        condicion
+        if(cat==3){
+            bon=sb*0.07
+            des=sb*0.05
+        }
+        sf=sb+bon-des;
+        // mostrnado rsultados
+        document.write("El sueldo basico es: "+sb+"<br>");
+        document.write("La bonificacion es: "+bon+"<br>");
+        document.write("El descuento es: "+des+"<br>");
+        document.write("El sueldo final es: "+sf+"<br>");
+        document.write("<hr>");
+
+
+        // Ejemplo 1: desarrolllar una aplicacion que permita calcular el area de un triangulo, si sse sabe que de sebe de ingresar la base y la altura. si el area del triangulo es mayor a 50 se mostrara un mensaje indicando "es un triangulo grande" en caso contrario se mostrara un mensaje indiciando "Es un triangulo pequeño"
+        var b=0, h=0, area=0,men="";
+        b=parseFloat(prompt("Ingrese la base del triangulo: "));
+        h=parseFloat(prompt("Ingrese la altura del triangulo: "));
+
+        area=(b*h)/2
+        if (area>50){
+            men="Es un triangulo grande";
+        }
+        else{
+            men="es un triangulo pequeño";
+        }
+
+        document.write("El area del triangulo es: "+area+"<br>");
+        document.write(men+"<br>");
+        document.write("<hr>");
+    </script>
+    
+</body>
+</html>
