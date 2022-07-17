@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Ejercicio 14</title>
+    <script type="text/javascript">
+
+        //definiendo e inicializando variables
+        var p1, p2, p3, pp1, pp2, pp3, tot;
+        //capturando valores
+        p1=parseFloat(prompt("Ingrese el monto de la primera persona:"));
+        p2=parseFloat(prompt("Ingrese el monto de la segunda persona:"));
+        p3=parseFloat(prompt("Ingrese el monto de la tercera persona:"));
+        //mostrando mensaje
+        tot = p1 + p2 + p3;
+        pp1= p1 * 100/tot;
+        pp2= p2 * 100/tot;
+        pp3= p3 * 100/tot;
+        //mostrando mensaje
+        document.write("el procentaje de la persona 1 es: " + pp1 +"%"+ "<br>");
+        document.write("el procentaje de la persona 2 es: " + pp2 +"%"+ "<br>");
+        document.write("el procentaje de la persona 3 es: " + pp3 +"%"+ "<br>");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

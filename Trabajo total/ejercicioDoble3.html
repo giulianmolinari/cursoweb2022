@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        //definiendo e inicializando variables
+        var n1=0, n2=0, n3=0, nf=0;
+        //capturando valores
+        n1=parseFloat(prompt("Ingresa la nota 1:"));
+        n2=parseFloat(prompt("Ingresa la nota 2:"));
+        n3=parseFloat(prompt("Ingresa la nota 3:"));
+        //condicion
+        if(nf>14){
+            men="Desaprobado";
+        }else{
+            men="Aprobado";
+        }
+        nf=(n1+n2+n3)/3;
+        //mostrando resultados
+        document.write("la nota final es: "+ nf + "<br>");
+        document.write( men + "<br>");
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Edad</title>
+</head>
+
+<body>
+    <input type="date" id="fechaNacimiento" min="1980-01-01" max="2022-06-19">
+    <h1 id="edad"></h1>
+    <hr>
+    <script>
+
+        const fechaNacimiento = document.getElementById("fechaNacimiento");
+        const edad = document.getElementById("edad");
+
+        const calcularEdad = (fechaNacimiento) => {
+        const fechaActual = new Date();
+        const anoActual = parseInt(fechaActual.getFullYear());
+        const mesActual = parseInt(fechaActual.getMonth()) + 1;
+        const diaActual = parseInt(fechaActual.getDate());
+
+        const anoNacimiento = parseInt(String(fechaNacimiento).substring(0, 4));
+        const mesNacimiento = parseInt(String(fechaNacimiento).substring(5, 7));
+        const diaNacimiento = parseInt(String(fechaNacimiento).substring(8, 10));
+
+        let edad = anoActual - anoNacimiento;
+        if (mesActual < mesNacimiento) {
+            edad--;
+        } else if (mesActual === mesNacimiento) {
+            if (diaActual < diaNacimiento) {
+                edad--;
+            }
+        }
+        return edad;
+        };
+
+        window.addEventListener('load', function () {
+
+        fechaNacimiento.addEventListener('change', function () {
+        if (this.value) {
+                edad.innerText = `La edad es: ${calcularEdad(this.value)} años`;
+            }
+        });
+
+    });
+    </script>
+</body>
+
+</html>

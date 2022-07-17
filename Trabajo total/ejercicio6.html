@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="text/javascript">
+      //inicializando variables
+      var pre = 0,
+        can = 0,
+        sub = 0,
+        des = 0,
+        tot = 0,
+        //calculando valores
+        pre = parseFloat(prompt("Ingresa el  precio:"));
+      can = parseInt(prompt("Ingresa la cantidad:"));
+      //realizando operaciones
+      sub = can * pre;
+      des = (sub * 35) / 100;
+      //mostrando resultados
+      document.write("Recibiste un descuento del 35%.El total es: " + des);
+    </script>
+  </head>
+  <body></body>
+</html>

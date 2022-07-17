@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        //definiendo e inicializando variables
+        var mon=0, igv=0, des=0, sbt=0, tot=0;
+        //capturando valores
+        mon=parseFloat(prompt("Ingresa el monto de la compra:"));
+        //condicion
+        igv=mon*0.18
+        if(sbt>500){
+            des=mon*0.02;
+        }else{
+            des=mon*0.08;
+        }
+        sbt=mon+igv;
+        tot=mon+igv-des;
+        //mostrando resultados
+
+        document.write("El descuento es: "+"S/. "+ des +".00"+ "<br>");
+        document.write("El total es: "+"S/. "+ tot +".00"+ "<br>");
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
